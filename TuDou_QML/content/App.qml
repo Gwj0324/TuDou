@@ -1,4 +1,3 @@
-
 // Copyright (C) 2021 The Qt Company Ltd.
 // SPDX-License-Identifier: LicenseRef-Qt-Commercial OR GPL-3.0
 import QtQuick 6.2
@@ -14,7 +13,10 @@ Window {
 
     TuDouMainWidget {
         id: mainScreen
-        width: parent.width;
-        height: parent.height;
+        width: parent.width
+        height: parent.height
+        btPlay.onClicked: {
+            console.log("lbTitle.text: ",lbTitle.text)
+        }
     }
 }

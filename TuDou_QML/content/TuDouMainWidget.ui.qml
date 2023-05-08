@@ -15,9 +15,11 @@ Rectangle {
     width: 900
     height: 700
     color: "#282525"
+    property alias lbVersion: lbVersion
+    property alias lbTitle: lbTitle
+    property alias btPlay: btPlay
 
     scale: 1
-
     Text {
         id: lbTitle
         x: -1
